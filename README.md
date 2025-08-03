@@ -1,3 +1,6 @@
+<img width="1024" height="1024" alt="convert" src="https://github.com/user-attachments/assets/7d09bfbc-b52e-4195-b845-3ff6340d7695" />
+
+
 # DICOM to PNG Converter
 This project contains a Python script that reads medical image files in DICOM (.dcm) format, normalizes the images, and converts them to PNG format.
 
