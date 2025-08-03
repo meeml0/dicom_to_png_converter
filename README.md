@@ -14,6 +14,8 @@ Saves the converted images as .png files in the specified folder.
 
 Compatible with additional packages required to open JPEG Lossless compressed DICOM files.
 
+It employs real-time synchronization by checking the existing normalized and converted images in the output folder, preventing previously processed files in the input folder from being converted again; thereby saving time and reducing file clutter.
+
 Provides conveniences for running in Google Colab environment but also works on general Python interpreters.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -86,6 +88,7 @@ Bu proje, tıbbi görüntü formatı olan **DICOM (.dcm)** dosyalarını okuyup,
 - Görüntüleri 256x256 boyutuna yeniden boyutlandırır.
 - Dönüştürülmüş görüntüleri `.png` formatında belirtilen klasöre kaydeder.
 - JPEG Lossless sıkıştırmalı DICOM dosyalarını açmak için gerekli olan ek paketlerle uyumludur.
+- Output klasöründeki mevcut normalize edilmiş ve dönüştürülmüş görüntüleri kontrol ederek, input klasöründeki daha önce işlenmiş dosyaların tekrar dönüştürülmesini eş zamanlı senkronizasyon ile engeller; böylece zaman kaybını önler ve dosya karmaşasını azaltır.
 - Google Colab ortamında çalıştırılmaya özel kolaylıklar sağlar, ancak genel Python derleyicilerinde de çalışabilir.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
