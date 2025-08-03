@@ -5,17 +5,11 @@ This project contains a Python script that reads medical image files in DICOM (.
 
 ## Features:
 Reads image data from DICOM files.
-
 Normalizes pixel values to the 0-255 range.
-
 Resizes images to 256x256 pixels.
-
 Saves the converted images as .png files in the specified folder.
-
 Compatible with additional packages required to open JPEG Lossless compressed DICOM files.
-
 It employs real-time synchronization by checking the existing normalized and converted images in the output folder, preventing previously processed files in the input folder from being converted again; thereby saving time and reducing file clutter.
-
 Provides conveniences for running in Google Colab environment but also works on general Python interpreters.
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
