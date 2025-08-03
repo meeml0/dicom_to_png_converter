@@ -1,4 +1,5 @@
-<img width="1024" height="1024" alt="convert" src="https://github.com/user-attachments/assets/7d09bfbc-b52e-4195-b845-3ff6340d7695" />
+<img width="1024" height="671" alt="convert 9 12" src="https://github.com/user-attachments/assets/7f4adeb5-dc85-43a5-b931-ec6bd7a84a16" />
+
 
 
 # DICOM to PNG Converter
