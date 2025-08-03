@@ -69,6 +69,10 @@ You can contribute to the project or report issues by opening a pull request or 
 
 
 
+
+
+
+
 # DICOM'dan PNG'ye Dönüştürücü
 
 Bu proje, tıbbi görüntü formatı olan **DICOM (.dcm)** dosyalarını okuyup, bu görüntüleri normalize ederek **PNG** formatına dönüştüren Python tabanlı bir script içerir.
